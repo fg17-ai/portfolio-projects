@@ -1,0 +1,104 @@
+{
+    "atributos": [
+        {
+            "descripcion": "Fecha y hora en la que ocurrio el siniestro",
+            "informacionAdicional": "",
+            "tipoDeDato": "Timestamp",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "Fecha y hora"
+        },
+        {
+            "descripcion": "Departamento donde ocurrio el siniestro de transito fatal",
+            "informacionAdicional": "",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "Departamento"
+        },
+        {
+            "descripcion": "Ciudad, pueblo o zona urbanizada donde ocurrio el siniestro. N/C en caso de tratarse de sitios fuera de zonas pobladas",
+            "informacionAdicional": "",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "Localidad"
+        },
+        {
+            "descripcion": "Departamental: todas aquellas vias dentro de un departamento que no son rutas nacionales; Nacional: rutas nacionales.",
+            "informacionAdicional": "",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "Jurisdiccion "
+        },
+        {
+            "descripcion": "Clasificacion del siniestro",
+            "informacionAdicional": "",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "Tipo de Siniestro"
+        },
+        {
+            "descripcion": "Vehiculo en el que circulaba la persona fallecida",
+            "informacionAdicional": "",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "Vehiculo"
+        },
+        {
+            "descripcion": "Rol en el transito que desempeñaba la persona cuando fallece",
+            "informacionAdicional": "",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "Rol"
+        },
+        {
+            "descripcion": "Edad que tenia la persona fallecida al momento de ocurrido el siniestro",
+            "informacionAdicional": "",
+            "tipoDeDato": "Integer",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "Edad"
+        },
+        {
+            "descripcion": "Sexo de la persona fallecida. Femenino (F), Masculino (M)",
+            "informacionAdicional": "",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "Sexo"
+        },
+        {
+            "descripcion": "Dias entre la ocurrencia del siniestro y el fallecimiento. 0 indica fallecido en el lugar, 1 indica que fallecio hasta un dia de ocurrido el Siniestro y asi sucesivamente.",
+            "informacionAdicional": "",
+            "tipoDeDato": "Integer",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "Fallecido a los Dias"
+        },
+        {
+            "descripcion": "Otro vehiculo involucrado en el siniestro",
+            "informacionAdicional": "",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "Otro vehiculo"
+        },
+        {
+            "descripcion": "Direccion o proximidad al lugar donde ocurrio el siniestro",
+            "informacionAdicional": "",
+            "tipoDeDato": "String",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "Lugar del Siniestro"
+        },
+        {
+            "descripcion": "Coordenada X del sitio donde ocurrio el siniestro, en sistema de referencia WGS84 / UTM Zona 21S",
+            "informacionAdicional": "",
+            "tipoDeDato": "Numeric",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "X"
+        },
+        {
+            "descripcion": "Coordenada Y del sitio donde ocurrio el siniestro, en sistema de referencia WGS84 / UTM Zona 21S",
+            "informacionAdicional": "",
+            "tipoDeDato": "Numeric",
+            "recursoRelacionado": "",
+            "nombreDeAtributo": "Y"
+        }
+    ],
+    "titulo": "Metadatos - Fallecidos en siniestros de tránsito",
+    "descripcion": "Metadatos de los datos de todas las personas fallecidas en siniestros de tránsito en el país."
+}
