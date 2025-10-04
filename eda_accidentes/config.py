@@ -27,3 +27,6 @@ def get_vis_dir() -> Path:
 def get_notebooks_dir() -> Path:
     """Devuelve la ruta del directorio de notebooks."""
     return str(NOTEBOOKS_DIR)
+def get_data_dir() -> Path:
+    """Devuelve la ruta del directorio de datos."""
+    return str(DATA_DIR)
